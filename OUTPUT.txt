@@ -1,0 +1,18 @@
+Name: Christina Liu	
+Class: CSC 172  
+Assignment: Project 2
+
+StreetMapping is a program that plots a map of roads and intersections from data given, gives shortest distance to travel
+between two points using Dijkstra, and generate a minimum weight spanning tree for the entire map.
+
+Make sure all programs and files are in the same directory*
+To run it please go through the following in terminal:
+	java --version
+	(Select path to where the file location of StreetMapping.java is using cd *name*)
+	javac *.java 
+	java Main *nameoffile.txt*
+	These are the following instructions that can added after the line above:
+	-show (uses GUI to make map)
+	-directions startingIntersection endingIntersection (provides shortest distance traveled in miles)
+	-meridianmap (highlights roads traveled)
+	Combine however you want, except -directions and -meridianmap
